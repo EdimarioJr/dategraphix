@@ -22,7 +22,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background p-8">
       <div className="mb-8 flex items-center justify-between">
-        <h1 className="text-3xl font-semibold tracking-tight">Dashboard</h1>
+        <h1 className="text-3xl font-semibold tracking-tight text-foreground/90">Dashboard</h1>
         <DateRangePicker />
       </div>
       <div className="grid gap-8 lg:grid-cols-2">
@@ -37,6 +37,6 @@ const Index = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Index;
